@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6e29d"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#aa8625"/>
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#d4af37" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0c0e12" stroke="url(#goldGrad)" stroke-width="2"/>
+  
+  <!-- Architectural interior corner perspective / G Monogram -->
+  <g filter="url(#goldGlow)" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Stylized architectural G -->
+    <path d="M42 20 C36 15 22 15 18 24 C14 33 16 43 24 47 C33 50 44 46 44 36 L30 36"/>
+    <!-- Subtle architectural room perspective accent -->
+    <path d="M46 16 L46 24" stroke-width="2.2"/>
+    <circle cx="30" cy="36" r="2.5" fill="url(#goldGrad)" stroke="none"/>
+  </g>
+</svg>
