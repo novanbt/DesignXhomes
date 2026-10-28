@@ -1,4 +1,4 @@
-# GAZE INTERIORS
+# DESIGN X HOMES
 
 Premier Residential Interior Design Studio located in **Bavdhan, Pune, Maharashtra**.
 
@@ -7,7 +7,7 @@ Premier Residential Interior Design Studio located in **Bavdhan, Pune, Maharasht
 ---
 
 ## 🌟 Overview
-GAZE INTERIORS is an architectural interior design and turnkey home renovation firm specializing in modern modular kitchens, luxury 2BHK/3BHK residences, penthouses, and bespoke living spaces across Pune (Bavdhan, Kothrud, Baner, Pashan, Wakad, and Hinjewadi).
+DESIGN X HOMES is an architectural interior design and turnkey home renovation firm specializing in modern modular kitchens, luxury 2BHK/3BHK residences, penthouses, and bespoke living spaces across Pune (Bavdhan, Kothrud, Baner, Pashan, Wakad, and Hinjewadi).
 
 ## 🚀 Features
 - **Responsive Architecture**: Built with clean semantic HTML5, modern vanilla CSS, and vanilla JavaScript.
@@ -16,7 +16,7 @@ GAZE INTERIORS is an architectural interior design and turnkey home renovation f
 - **Before & After Transformation Slider**: Interactive comparison revealing the transformation from raw bare concrete construction to finished luxury residence.
 - **Curated Portfolio & Lightbox**: Filterable gallery for Living Rooms, Modular Kitchens, Master Suites, Dining & Bar, and Home Offices.
 - **Real Google Reviews**: Verified customer feedback from homeowners in Pune.
-- **Studio Information**: Full weekly visiting hours, location directions near Chandani Chowk, direct phone access (`088888 95662`), and embedded Google Maps.
+- **Studio Information**: Full weekly visiting hours, location directions near Taj Hotel, direct phone access (`097928 58015`), and embedded Google Maps.
 
 ## 📁 Repository Structure
 ```
@@ -47,4 +47,4 @@ node server.js
 Then open [http://localhost:3000/](http://localhost:3000/) in your browser.
 
 ---
-© Gaze Interiors. All rights reserved.
+© Design X Homes. All rights reserved.

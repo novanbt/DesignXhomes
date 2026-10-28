@@ -1,5 +1,5 @@
 /**
- * GAZE INTERIORS - Modern Interactive Architecture & Experience Scripts
+ * DESIGN X HOMES - Modern Interactive Architecture & Experience Scripts
  * Location: Bavdhan, Pune, Maharashtra
  */
 
@@ -186,9 +186,9 @@ function initCostEstimator() {
     // Update WhatsApp prefilled message
     if (whatsappQuoteBtn) {
       const msg = encodeURIComponent(
-        `Hello Gaze Interiors! I just calculated an interior estimate on your website for my ${selectedSpace.toUpperCase()} with ${selectedTier.toUpperCase()} finishes (Estimated: ₹${lowerRange} - ₹${upperRange} Lakhs). I'd love to schedule a free 3D design consultation at your Bavdhan studio.`
+        `Hello Design X Homes! I just calculated an interior estimate on your website for my ${selectedSpace.toUpperCase()} with ${selectedTier.toUpperCase()} finishes (Estimated: ₹${lowerRange} - ₹${upperRange} Lakhs). I'd love to schedule a free 3D design consultation at your Varanasi studio.`
       );
-      whatsappQuoteBtn.href = `https://wa.me/918888895662?text=${msg}`;
+      whatsappQuoteBtn.href = `https://wa.me/919792858015?text=${msg}`;
     }
   }
 
@@ -311,13 +311,13 @@ function initContactForm() {
     }
 
     const waText = encodeURIComponent(
-      `Hello Gaze Interiors!\nI would like to book an interior design consultation.\n\nName: ${name}\nPhone: ${phone}\nProject Type: ${propertyType}\nLocation: ${location || 'Pune'}\nDetails: ${message || 'Looking for modern 3D designs and quotation'}`
+      `Hello Design X Homes!\nI would like to book an interior design consultation.\n\nName: ${name}\nPhone: ${phone}\nProject Type: ${propertyType}\nLocation: ${location || 'Pune'}\nDetails: ${message || 'Looking for modern 3D designs and quotation'}`
     );
 
     showToast('Consultation request registered! Redirecting to studio WhatsApp...');
     
     setTimeout(() => {
-      window.open(`https://wa.me/918888895662?text=${waText}`, '_blank');
+      window.open(`https://wa.me/919792858015?text=${waText}`, '_blank');
       form.reset();
     }, 1200);
   });

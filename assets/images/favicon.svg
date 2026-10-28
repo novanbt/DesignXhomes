@@ -13,12 +13,13 @@
   <!-- Background rounded squircle -->
   <rect x="2" y="2" width="60" height="60" rx="14" fill="#0c0e12" stroke="url(#goldGrad)" stroke-width="2"/>
   
-  <!-- Architectural interior corner perspective / G Monogram -->
-  <g filter="url(#goldGlow)" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <!-- Stylized architectural G -->
-    <path d="M42 20 C36 15 22 15 18 24 C14 33 16 43 24 47 C33 50 44 46 44 36 L30 36"/>
-    <!-- Subtle architectural room perspective accent -->
-    <path d="M46 16 L46 24" stroke-width="2.2"/>
-    <circle cx="30" cy="36" r="2.5" fill="url(#goldGrad)" stroke="none"/>
+  <!-- Architectural DX Monogram -->
+  <g filter="url(#goldGlow)" stroke="url(#goldGrad)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Stylized Architectural 'D' -->
+    <path d="M16 18 L16 46 M16 18 L26 18 C33 18 36 24 36 32 C36 40 33 46 26 46 L16 46"/>
+    <!-- Architectural 'X' intersecting with precision -->
+    <line x1="37" y1="20" x2="49" y2="44"/>
+    <line x1="49" y1="20" x2="37" y2="44"/>
+    <circle cx="43" cy="32" r="1.5" fill="url(#goldGrad)" stroke="none"/>
   </g>
 </svg>
